@@ -11,8 +11,8 @@ class queue{
     public:
     queue();
     ~queue();
-    isFull();
-    isEmpty();
+    bool isFull();
+    bool isEmpty();
     void enqueue(TipoItem item);
     TipoItem dequeue();
     void print();
